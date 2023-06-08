@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li>
+          <a href="#">Início</a>
+        </li>
+        <li>
+          <a href="#produtos">Produtos</a>
+        </li>
+        <li>
+          <a href="#equipe">Equipe</a>
+          <ul>
+            <li>
+              <a href="#">CEO</a>
+            </li>
+            <li>
+              <a href="#">Analista de TI</a>
+            </li>
+            <li>
+              <a href="#">Asistente Administrativo</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#inscricao">Inscreva-se</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="line" id="Home">
+      <div class="side1">
+        <h1>Esportes Center</h1>
+      </div>
+    </div>
+    <section class="faixas" id="sobre">
+      <div class="content">
+        <div class="title">
+          <h2>Sobre Nossa Loja de Equipamentos Esportivos</h2>
+        </div>
+        <div class="description">
+          <p>Bem-vindo à nossa loja de equipamentos esportivos, o lugar ideal para encontrar tudo o que você precisa para a prática de esportes. Nós nos orgulhamos de oferecer uma ampla variedade de produtos de alta qualidade para atletas de todos os níveis e modalidades esportivas.</p>
+          <p>Em nossa loja, você encontrará uma extensa seleção de equipamentos esportivos, incluindo roupas esportivas, calçados, acessórios e equipamentos especializados. Trabalhamos apenas com as melhores marcas do mercado, garantindo produtos duráveis e de alto desempenho.</p>
+          <p>Nossa equipe é composta por entusiastas de esportes que estão sempre prontos para ajudar você a encontrar o equipamento certo para suas necessidades. Seja você um atleta experiente ou alguém que está apenas começando, estamos aqui para fornecer orientação especializada e recomendações personalizadas.</p>
+        </div>
+      </div>
+    </section>
+    <section class="faixas" id="produtos">
+      <div class="content">
+        <div class="title">
+          <h2>Produtos</h2>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">
+              <h3> Tênis bege Camurça </h3>
+            </div>
+            <div class="texto">
+              <p> Calçado confortável, recomendado para trilhas e caminhadas. Possui amortecedor no calcanhar o que garante conforto para seus pés. </p>
+            </div>
+            <img src="tenis1.jpg" class="figuras" alt="Tenis" width="300" height="300" />
+          </div>
+          <div class="box">
+            <div class="topic">
+              <h3> Camisa Azul Pulma </h3>
+            </div>
+            <div class="texto">
+              <p> Camisa de treino com tecido Drycell com alta tecnologia que absorve a umidade. </p>
+            </div>
+            <img src="camisa1.webp" alt="Camisa" class="figuras" width="300" height="300" />
+          </div>
+          <div class="box">
+            <div class="topic">
+              <h3> Bola de futebol Champions League </h3>
+            </div>
+            <div class="texto">
+              <p> Bola de futebol da final da Champions League do ano 2022, com designe exclusivo feito pelo Romero Brito. </p>
+            </div>
+            <img src="bola1.webp" alt="Bola" class="figuras" width="300" height="300" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faixas" id="equipe">
+      <div class="content">
+        <div class="title">
+          <h2>Equipe</h2>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">
+              <h3> CEO </h3>
+            </div>
+            <div class="texto">
+              <p> Marina é responsável por todos os setores da Esportes Center </p>
+            </div>
+            <img src="ceo.jpg" alt="CEO" class="figuras" width="300" height="400" />
+          </div>
+          <div class="box">
+            <div class="topic">
+              <h3> Analista de TI </h3>
+            </div>
+            <div class="texto">
+              <p> Ina Clara é Analista de TI responsável por toda equipe de TI </p>
+            </div>
+            <img src="analista.jpg" alt="Analista" class="figuras" width="300" height="400" />
+          </div>
+          <div class="box">
+            <div class="topic">
+              <h3> Assistente administrativo </h3>
+            </div>
+            <div class="texto">
+              <p> Ana Clara é Assistente administrativo responsável pela prestação de contas. </p>
+            </div>
+            <img src="adm.jpg" alt="Assistente" class="figuras" width="300" height="400" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe" id="inscricao">
+      <div class="content">
+        <div class="title">
+          <h2>Inscreva-se para saber mais sobre nossos produtos</h2>
+        </div>
+        <form class="signup-form">
+          <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="state">Estado:</label>
+            <select id="state" name="state" required>
+              <option value="">Selecione o Estado</option>
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="city">Cidade:</label>
+            <input type="text" id="city" name="city" required>
+          </div>
+          <div class="form-group">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
